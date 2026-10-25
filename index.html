@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first HTML project</title>
+</head>
+<body>
+        <h4>
+            STUDENT REGISTRATION FORM
+        </h4> 
+    <p>Available Subjects And Schedule</p>
+    <table border="1" style="border-collapse:collapse ;">
+        <thead>
+            <tr>
+                <th>Subjects</th>
+                <th>Classes Covered</th>
+                <th>Timings</th>
+            </tr>
+        </thead>
+        <body>
+            <tbody>
+         <tr>
+            <td>Web Dev</td>
+            <td>Grade 9 , 10 </td>
+            <td>9.00am to 10.00am</td>  
+         </tr>
+         <tr>
+            <td>CS</td>
+            <td>Grade 7 , 8 </td>
+            <td>10.30am to 11.30am</td>
+         </tr>
+         <tr>
+            <td>Eng</td>
+            <td>Grade 5 ,6 </td>
+            <td>12.00pm to 1.00pm</td>
+         </tr>
+            </tbody>
+        </body>
+    </table>
+    <form>
+        <br>
+        <input type="text" placeholder="NAME" required>
+        <br>
+        <input type="text" placeholder="YOUR EMAIL ADDRESS" required>
+        <p>Select Grade Level</p>
+            <label>
+            <input type="radio" value="Grade 5 " name="Grade">Grade 5  
+            </label>
+            <br>
+            <label>
+            <input type="radio" value="Grade 6 " name="Grade">Grade 6
+            </label>
+            <br>
+            <label>
+            <input type="radio" value="Grade 7 " name="Grade">Grade 7
+            </label>
+            <br>
+            <label>
+            <input type="radio" value="Grade 8 " name="Grade">Grade 8
+            </label>
+            <br>
+            <label>
+            <input type="radio" value="Grade 9 " name="Grade">Grade 9
+            </label>
+            <br>
+            <label>
+            <input type="radio" value="Grade 10 " name="Grade">Grade 10
+            </label>
+            <p>Select Desired Subject</p>
+            <label>
+                <input type="checkbox" value="Web Dev" name="Subjects">Web Dev
+            </label>
+            <br>
+             <label>
+                <input type="checkbox" value="CS" name="Subjects">CS
+            </label>
+            <br>
+             <label>
+                <input type="checkbox" value="Eng" name="Subjects">Eng
+            </label>
+            <br>
+            <p>Gender</p>
+            <label>
+                <input type="radio" value="Male" name="Gender">Male
+            </label>
+             <label>
+                <input type="radio" value="Female" name="Gender">Female
+            </label>
+            <br>
+            <p>Ask Here</p>
+            <textarea value="Feedback" placeholder="Questions For School"></textarea>
+            <br>
+            <input type="Submit" value="Submit">
+    </form>
+    
+</body>
+</html>
